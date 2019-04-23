@@ -43,3 +43,13 @@ a {
     background-color:red;
     opcaity: 0.5;
     }
+label{
+    display: block;
+    font-size: 18px;
+}
+input {
+        margin: center;
+        margin: 10px;
+    }
+button
+
