@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+h1 {
+    color:red;
+    text-align: center;
+}
+img {
+    width: 800px;
+    text-align: center;
+}
+#myPets {
+    width: 400px;
+}
+body {
+    background-color: aquamarine;
+    text-align:center;
+}
+ol li {
+    color: blue;
+    font-size: 1.2em;
+    text-align: center;
+}
+h3, h2 {
+    font: 'Cute Font', sans-serif;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: rgb(20, 30, 200); 
+ }
+ 
+ a:hover {
+     color: purple;
+     font-style: italic;
+ }
+ ul li, ol {
+     display: inline-block;
+     font-size: 1.1em;
+ }
+ hr {
+    width: full;
+    padding: 0;
+    height: 2px;
+    background-color:red;
+    opcaity: 0.5;
+    }
