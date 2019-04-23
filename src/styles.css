@@ -51,5 +51,6 @@ input {
         margin: center;
         margin: 10px;
     }
-button
-
+button {
+    font-size: 1.3em;
+}
