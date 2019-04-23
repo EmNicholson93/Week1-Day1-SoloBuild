@@ -31,3 +31,10 @@ a {
  ul li, ol {
      display: inline-block;
  }
+ hr {
+    width: 4000px;
+    padding: 0;
+    height: 2px;
+    background-color:red;
+    opcaity: 0.5;
+    }
