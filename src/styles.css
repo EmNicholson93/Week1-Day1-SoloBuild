@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+h1 {
+    color:red;
+}
+img {
+    width: 400px;
+}
+body {
+    background-color: aquamarine;
+}
+li {
+    color: blue;
+    font-size: 1.2em;
+}
+h3, h2 {
+    font: 'Cute Font', sans-serif;
+}
