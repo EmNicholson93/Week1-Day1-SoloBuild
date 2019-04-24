@@ -2,7 +2,7 @@ function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, ror
     rangerAnswer = rangerAnswer.toLowerCase();
     smokeyAnswer = smokeyAnswer.toLowerCase();
     tybaltAnswer = tybaltAnswer.toLowerCase();
-    kayakAnswer = kayakAnswer.toLowerCase();
+    //kayakAnswer = kayakAnswer.toLowerCase();
     roryAnswer = roryAnswer.toLowerCase();
     
     let score = 0;
@@ -19,7 +19,7 @@ function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, ror
         score += 1;
     }
 
-    if(kayakAnswer === 'kayaking') {
+    if(kayakAnswer.toLowerCase() === 'kayaking') {
         score += 1;
     }
 
@@ -27,6 +27,7 @@ function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, ror
         score += 1;
     }
 
+    console.log('score from function', score)
     return score;
 
 }

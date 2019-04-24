@@ -11,14 +11,14 @@ test('return a score of 5 if all answers are correct', assert => {
     const tybaltAnswer = 'siamese';
     const kayakAnswer = 'kayaking';
     const roryAnswer = 'early';
-    const expectedResult = '5';
+    const expectedResult = 5;
 
 //act
 
     const score = checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, roryAnswer, kayakAnswer);
 
 //assert
-
+console.log('from test 1', checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, roryAnswer, kayakAnswer));
     assert.equal(expectedResult, score);
 });
 
@@ -31,12 +31,13 @@ test('return a score of 3 if 2 answers are incorrect', assert => {
     const tybaltAnswer = 'siamese';
     const kayakAnswer = 'kayaking';
     const roryAnswer = 'early';
-    const expectedResult = '3';
+    const expectedResult = 3;
 
 //act
 
     const score = checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, roryAnswer, kayakAnswer);
 
+    console.log(checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, roryAnswer, kayakAnswer));
 //assert
 
     assert.equal(expectedResult, score);
@@ -51,7 +52,7 @@ test('return a score of 0 if all answers are incorrect', assert => {
     const tybaltAnswer = 'siamesdfe';
     const kayakAnswer = 'kayasdking';
     const roryAnswer = 'earlsy';
-    const expectedResult = '0';
+    const expectedResult = 0;
 
 //act
 

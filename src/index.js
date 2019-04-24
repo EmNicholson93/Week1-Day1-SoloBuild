@@ -26,5 +26,5 @@ button.addEventListener('click', event => {
 
     resultsAre.textContent = message;
 
-    console.log(message)
+    console.log(rangerAnswer);
 });
