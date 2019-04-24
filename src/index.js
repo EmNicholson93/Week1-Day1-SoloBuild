@@ -10,7 +10,6 @@ const resultsAre = document.getElementById('resultsAre');
 
 button.addEventListener('click', event => {
     event.preventDefault();
-    console.log('rangerInput', rangerInput)
     const rangerAnswer = rangerInput.value;
     const smokeyAnswer = smokeyInput.value;
     const tybaltAnswer = tybaltInput.value;
@@ -27,5 +26,4 @@ button.addEventListener('click', event => {
 
     resultsAre.textContent = message;
 
-    console.log(rangerAnswer);
 });

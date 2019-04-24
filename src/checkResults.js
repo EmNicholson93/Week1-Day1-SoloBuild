@@ -1,5 +1,4 @@
 function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer) {
-    console.log(rangerAnswer)
     rangerAnswer = rangerAnswer.toLowerCase();
     smokeyAnswer = smokeyAnswer.toLowerCase();
     tybaltAnswer = tybaltAnswer.toLowerCase();
@@ -28,7 +27,6 @@ function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, ror
         score += 1;
     }
 
-    console.log('score from function', score)
     return score;
 
 }

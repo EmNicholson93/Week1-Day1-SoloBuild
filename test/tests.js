@@ -18,7 +18,6 @@ test('return a score of 5 if all answers are correct', assert => {
     const score = checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer);
 
 //assert
-console.log('from test 1', checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer));
     assert.equal(expectedResult, score);
 });
 
@@ -37,7 +36,6 @@ test('return a score of 3 if 2 answers are incorrect', assert => {
 
     const score = checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer);
 
-    console.log(checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer));
 //assert
 
     assert.equal(expectedResult, score);
