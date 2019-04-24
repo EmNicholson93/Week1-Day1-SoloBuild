@@ -14,3 +14,5 @@ button.addEventListener('click', event => {
     const roryAnswer = roryInput.nodeValue.trim();
     const kayakAnswer = kayakInput.nodeValue.trim();
 })
+
+console.log(rangerInput, smokeyInput, tybaltInput, roryInput, kayakInput)
