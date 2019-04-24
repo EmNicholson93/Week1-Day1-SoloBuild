@@ -16,7 +16,13 @@ button.addEventListener('click', event => {
     const kayakAnswer = kayakInput.value.trim();
     const roryAnswer = roryInput.value.trim();
 
-const score = checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer);
+    const score = checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer);
 
-if( )
+    if(rangerAnswer === '' || smokeyAnswer === '' || tybaltAnswer === '' || kayakAnswer === '' || roryAnswer === ''){ alert('You did not answer all the questions!!!');
+    }
+
+    const message = 'Your score: ' + score + 'out of 5!';
+
+    results.textContent = message;
+
 });
