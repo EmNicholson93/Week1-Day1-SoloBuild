@@ -48,9 +48,10 @@ label{
     font-size: 18px;
 }
 input {
-        margin: center;
+        padding: 3px;
         margin: 10px;
     }
 button {
+    display: center;
     font-size: 1.3em;
 }
