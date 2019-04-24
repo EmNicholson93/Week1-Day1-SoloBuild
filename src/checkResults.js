@@ -1,10 +1,11 @@
 function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, roryAnswer) {
+    console.log(rangerAnswer)
     rangerAnswer = rangerAnswer.toLowerCase();
     smokeyAnswer = smokeyAnswer.toLowerCase();
     tybaltAnswer = tybaltAnswer.toLowerCase();
-    //kayakAnswer = kayakAnswer.toLowerCase();
+    kayakAnswer = kayakAnswer.toLowerCase();
     roryAnswer = roryAnswer.toLowerCase();
-    
+
     let score = 0;
 
     if(rangerAnswer === 'bengal') {
@@ -19,7 +20,7 @@ function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, kayakAnswer, ror
         score += 1;
     }
 
-    if(kayakAnswer.toLowerCase() === 'kayaking') {
+    if(kayakAnswer === 'kayaking') {
         score += 1;
     }
 
