@@ -41,5 +41,17 @@ a {
     padding: 0;
     height: 2px;
     background-color:red;
-    opcaity: 0.5;
+    opacity: 0.5;
     }
+label{
+    display: block;
+    font-size: 18px;
+}
+input {
+        padding: 3px;
+        margin: 10px;
+    }
+button {
+    display: center;
+    font-size: 1.3em;
+}
