@@ -1,23 +1,23 @@
 function checkResults(rangerAnswer, smokeyAnswer, tybaltAnswer, roryAnswer, kayakAnswer) {
     let score = 0;
 
-    if(rangerAnswer === 'bengal') {
+    if(rangerAnswer.toLowerCase() === 'bengal') {
         score += 1;
     }
 
-    if(smokeyAnswer === 'chicks') {
+    if(smokeyAnswer.toLowerCase() === 'chicks') {
         score += 1;
     }
     
-    if(tybaltAnswer === 'siamese') {
+    if(tybaltAnswer.toLowerCase() === 'siamese') {
         score += 1;
     }
     
-    if(roryAnswer === 'early') {
+    if(roryAnswer.toLowerCase() === 'early') {
         score += 1;
     }
 
-    if(kayakAnswer === 'kayaking') {
+    if(kayakAnswer.toLowerCase() === 'kayaking') {
         score += 1;
     }
     return score;
